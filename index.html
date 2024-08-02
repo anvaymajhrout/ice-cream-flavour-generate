@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Dream</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uiverseio/dist/uiverse.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Ice Cream Dream</h1>
+        <div class="dropdown-container">
+            <label for="flavor-type" class="label">Select Your Ice Cream Type:</label>
+            <select id="flavor-type" class="styled-dropdown">
+                <option value="classic">Classic</option>
+                <option value="fruity">Fruity</option>
+                <option value="nutty">Nutty</option>
+                <option value="gourmet">Gourmet</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="tropical">Tropical</option>
+                <option value="candy">Candy</option>
+                <option value="spicy">Spicy</option>
+            </select>
+        </div>
+        <button id="generate-btn" class="ui-button">Generate Flavor</button>
+        <div id="result">
+            <h2 id="flavor-name">Your Ice Cream</h2>
+            <p id="flavor-details">Flavor details will appear here</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
